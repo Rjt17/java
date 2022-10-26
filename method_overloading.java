@@ -11,6 +11,10 @@ public class method_overloading {
         System.out.println("Good morning again bro!!!");
     }
 
+    static void foo(float a, int b){
+        System.out.println("Good morning in different data types!!!");
+    }
+
     static void foo(float a){
         System.out.println("Good morning bro in floats");
     }
@@ -19,5 +23,6 @@ public class method_overloading {
         foo(2);
         foo(3,4);
         foo(1.0f);
+        foo(1.0f,1);
     }
 }
